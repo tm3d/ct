@@ -1,0 +1,96 @@
+
+body,html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
+    
+}
+body{
+    background-color: wheat;
+    
+}
+
+.wrapper{
+    min-height: 100%;
+   
+    
+}
+.header{
+    height: 250px;
+    background-color: wheat;
+}
+.footer{
+    position: relative;
+    z-index: 10;
+    margin-top: -100px;
+    height: 100px;
+    background-color: black;
+}
+.subfooter{
+    height: 100px;
+}
+.inner,.container{
+    max-width: 1140px;
+    width: 96%;
+    margin: 0 auto;
+}
+
+
+    .block {
+    float: left;
+    width: 250px;
+    margin-right: 20px;
+    text-align: center;
+    box-shadow: wheat;
+    border: 2px solid red;
+    margin-right: 10px;
+    position: relative;
+    
+    }
+    
+    .block2{
+        float: left;
+        width: 250px;
+        margin-right: 20px;
+        text-align: center;
+        height: 350px;
+        box-shadow: wheat;
+        border: 2px solid red;
+        position: relative;
+    }
+    
+
+
+.block3{
+    float: left;
+    
+    text-align: center;
+   border: 2px solid red;
+   width: 250px;
+   height: 350px;
+   margin-right: 20px;
+   position: relative;
+}
+
+   .block4{
+    float: left;
+    text-align: center;
+   border: 2px solid red;
+   width: 250px;
+   height: 350px;
+   margin-right: 20px;
+   position: relative;
+
+}
+.block .row{
+    margin-right:-20px;
+    position: relative;
+    float: left;
+    
+}
+
+
+.clear{
+    height: 1px;
+    clear: both;
